@@ -42,6 +42,7 @@ class _AppState extends State<App> {
     return MaterialApp(
       navigatorKey: App.nk,
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
